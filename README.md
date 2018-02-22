@@ -13,16 +13,13 @@ This document will serve as a starting point for new members to Edross
   * Stakeholders for individual solutions will be enumerated in the documentation for that solution
 
 ## Team communication
-   Team communication is facilitated by slack  
-   https://cs4260-gec.slack.com/messages/C8ZPPNANS/?
+   Team communication is facilitated by [slack](https://cs4260-gec.slack.com/messages/C8ZPPNANS/?)
   
 ## Project Management  
-   Project Management is hosted at trello  
-   https://trello.com/cs4260
+   Project Management is hosted at [trello](https://trello.com/cs4260)
 
 ## Team notebook  
-   The team notebook can be found at  
-   https://docs.google.com/document/d/1wtbqzd1SDGKhH0F0hwVXJ3bAsa69ww4ts0kIzFC8ZfA/edit
+   The [team notebook](https://docs.google.com/document/d/1wtbqzd1SDGKhH0F0hwVXJ3bAsa69ww4ts0kIzFC8ZfA) holds all information about past sprints for the Scrum Agile process
   
 ## Accessing code base
    due to the nature of github our code base cannot be stored and searched in a hierarchical manner. 
@@ -41,7 +38,7 @@ This document will serve as a starting point for new members to Edross
   
 ## Getting started with Mozilla bug tracking:
   
-  * To get started using Mozilla's bug tracking software head over to https://bugzilla.mozilla.org/
+  * Mozilla uses [Bugzilla](https://bugzilla.mozilla.org/) to track reported issues
   
   * for our project we are working with mozilla tools with a preference towards accessibility
   
