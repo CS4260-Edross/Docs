@@ -14,6 +14,7 @@ This document will serve as a starting point for new members to Edross
 
 ## Team communication
    Team communication is facilitated by slack
+   
    https://cs4260-gec.slack.com/messages/C8ZPPNANS/?
   
 ## Project Management  
