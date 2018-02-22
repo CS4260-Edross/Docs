@@ -13,8 +13,7 @@ This document will serve as a starting point for new members to Edross
   * Stakeholders for individual solutions will be enumerated in the documentation for that solution
 
 ## Team communication
-   Team communication is facilitated by slack
-   
+   Team communication is facilitated by slack  
    https://cs4260-gec.slack.com/messages/C8ZPPNANS/?
   
 ## Project Management  
@@ -26,8 +25,6 @@ This document will serve as a starting point for new members to Edross
    https://docs.google.com/document/d/1wtbqzd1SDGKhH0F0hwVXJ3bAsa69ww4ts0kIzFC8ZfA/edit
   
 ## Accessing code base
-
-
    due to the nature of github our code base cannot be stored and searched in a hierarchical manner. 
    Individual solutions will be  housed in their own repository under the Edross organization. 
    
