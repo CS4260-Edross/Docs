@@ -6,10 +6,10 @@ This document will serve as a starting point for new members to Edross
    insert vision statement
   
 ## Stakeholders
-  * All members of Edross
-  * Dr. Jody Paul
-  * Developers involved in the Mozilla project
-  * Users of the Mozilla software suite
+  * Members of Edross: Interested in learning project management, process, and developing quality code.
+  * Dr. Jody Paul: Interested in process and learning outcomes of team members.
+  * Developers involved in the Mozilla project: Interested in improving code quality
+  * Users of the Mozilla software suite: Interested in quality software products that meet their needs
   * Stakeholders for individual solutions will be enumerated in the documentation for that solution
 
 ## Team communication
@@ -22,9 +22,7 @@ This document will serve as a starting point for new members to Edross
    The [team notebook](https://docs.google.com/document/d/1wtbqzd1SDGKhH0F0hwVXJ3bAsa69ww4ts0kIzFC8ZfA) holds all information about past sprints for the Scrum Agile process
   
 ## Accessing code base
-   due to the nature of github our code base cannot be stored and searched in a hierarchical manner. 
-   Individual solutions will be  housed in their own repository under the Edross organization. 
-   
+
    (add further instructions for searching for a particular solution)
   
 ## Downloading and building solutions
