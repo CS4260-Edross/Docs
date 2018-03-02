@@ -32,6 +32,7 @@ What will we improve for next time?
     * Write it on the whiteboard at the begining of class
     * Automatic artifacts of each meeting
     * Focuses our in class meetings
+* Establish a code of conduct
 
 
 [planning]: https://www.scrum.org/resources/what-is-sprint-planning
