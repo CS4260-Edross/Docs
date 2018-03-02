@@ -34,7 +34,6 @@ What will we improve for next time?
     * Focuses our in class meetings
 * Establish a code of conduct
 
-
 [planning]: https://www.scrum.org/resources/what-is-sprint-planning
 [retrospective]: https://www.scrumalliance.org/community/articles/2014/april/key-elements-of-sprint-retrospective
 [trello]: https://trello.com/b/WsUMC6OP
