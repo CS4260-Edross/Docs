@@ -26,7 +26,13 @@ What did we do during this sprint?
 
 What will we improve for next time?
 
-* Placeholder
+* We need more artifacts produced
+* Publish agends for each meeting
+    * Created by requests to Scrum Master
+    * Write it on the whiteboard at the begining of class
+    * Automatic artifacts of each meeting
+    * Focuses our in class meetings
+
 
 [planning]: https://www.scrum.org/resources/what-is-sprint-planning
 [retrospective]: https://www.scrumalliance.org/community/articles/2014/april/key-elements-of-sprint-retrospective
