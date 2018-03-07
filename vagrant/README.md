@@ -31,7 +31,7 @@ Progress:
 
 [x] Linux base box
 [x] Node.js installation
-[ ] Yarn installation
+[x] Yarn installation
 [ ] Circle-CI installation
 [ ] ES-Lint installation
 [ ] Other package installation
