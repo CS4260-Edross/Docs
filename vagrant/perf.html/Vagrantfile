@@ -15,7 +15,7 @@ Vagrant.configure("2") do |config|
   config.vm.box = "ubuntu/xenial64"
 
   # Config host information to expose http server
-  config.vm.network :forwarded_port, guest: 4242, host: 4242
+  config.vm.network :forwarded_port, guest: 4242, host: 4242, guest_ip: "127.0.0.1"
 
   # Config VirtualBox options
   config.vm.provider "virtualbox" do |vb|
