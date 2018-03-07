@@ -30,7 +30,7 @@ You can find our `perf.html` specific `Vagrantfile` [here][perf_vagrant].
 Progress:
 
 [x] Linux base box
-[ ] Node.js installation
+[x] Node.js installation
 [ ] Yarn installation
 [ ] Circle-CI installation
 [ ] ES-Lint installation
