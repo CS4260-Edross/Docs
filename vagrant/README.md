@@ -22,38 +22,36 @@ base to give the virtual machine access to the code base.
 example of a back-end is the [Gecko Profiler Addon][gecko] for FireFox.
 
 The development environment is based around a Node.js server managed by the Yarn
-dependency manager all on Linux. It also appears to be using Circle-CI and
-ES-Lint for DevOps. We need a Linux box with Node, Yarn, Circle-CI, and ES-Lint.
+dependency manager all on Linux. Yarn handles all other dependencies. We need a
+Linux box with Node, and Yarn.
 
 You can find our `perf.html` specific `Vagrantfile` [here][perf_vagrant].
 
 Progress:
 
-[x] Linux base box
-[x] Node.js installation
-[x] Yarn installation
-[ ] Circle-CI installation
-[ ] ES-Lint installation
-[ ] Other package installation
+[✓] Linux base box<br/>
+[✓] Node.js installation<br/>
+[✓] Yarn installation<br/>
+[ ] Other package installation<br/>
 [ ] Automate test runs
 
 Usage:
 
 1. Clone the perf.html fork repository using git. The clone directory will now
-   be referred to as `<perf>`
+   be referred to as `<perf>/`
 2. Copy the [`Vagrantfile`][perf_vagrant] to `<perf>/Vagrantfile`
-3. Edit `<perf>/.git/info/exclude` to add the line `Vagrantfile`
-    * This is because the provided `.gitignore` does not include a `Vagrantfile`
-      but we don't want to accidentally commit our `Vagrantfile`
-4. Run `vagrant up` from anywhere within `<perf>`
+3. Edit `<perf>/.git/info/exclude` and add the lines `Vagrantfile` and
+   `ubuntu*.log` to the end (two lines).
+    * This is because the provided `.gitignore` does not include settings for
+      vagrant files. We don't want to accidentally commit our `Vagrantfile` and
+      supporting log files to their repository and we also don't want to modify
+      the `.gitignore` they provide
+4. Run `vagrant up` from anywhere within `<perf>/`
 5. Once this command finishes run `vagrant ssh` to connect to the guest OS
 6. Run `cd /vagrant` to change to the shared folder
 7. Run `yarn install` to install the Yarn controlled dependencies
 8. Run `yarn start` to start the server
-9. (Once the vagrant-hostsupdater config is added) Connect to
-   `http://localhost:<port>` in a web browser on your host
-
-
+9. Connect to `http://localhost:4242` in a web browser on your host
 
 [vagrant]: https://www.vagrantup.com/intro/index.html
 [vbguest]: https://github.com/dotless-de/vagrant-vbguest
