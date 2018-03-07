@@ -40,8 +40,8 @@ Usage:
 1. Clone the perf.html fork repository using git. The clone directory will now
    be referred to as `<perf>/`
 2. Copy the [`Vagrantfile`][perf_vagrant] to `<perf>/Vagrantfile`
-3. Edit `<perf>/.git/info/exclude` and add the lines `Vagrantfile` and
-   `ubuntu*.log` to the end (two lines).
+3. Edit `<perf>/.git/info/exclude` and add the lines `Vagrantfile`, `.vagrant`,
+   and `ubuntu*.log` to the end (three lines).
     * This is because the provided `.gitignore` does not include settings for
       vagrant files. We don't want to accidentally commit our `Vagrantfile` and
       supporting log files to their repository and we also don't want to modify
