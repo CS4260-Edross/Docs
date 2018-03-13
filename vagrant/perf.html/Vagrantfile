@@ -50,5 +50,8 @@ echo "deb https://dl.yarnpkg.com/debian/ stable main" | \
 apt-get update
 apt-get install -y nodejs yarn
 
+# Install Yarn deps
+(cd /vagrant/ && yarn install)
+
 BOOT
 end
