@@ -9,7 +9,8 @@ the guest we can install the `Vagrantfile` in the root directory of the code
 base to give the virtual machine access to the code base.
 
 Vagrant needs to be installed before all of these can be done. You can get
-instructions for installing Vagrant [here][vagrant_install].
+instructions for installing Vagrant [here][vagrant_install]. Vagrant also needs
+a virtual machine provider such as [Virtual Box][vbox].
 
 You can get the `Vagrantfile`s either by cloning this git repo or by navigating
 to the `Vagrantfile` on github, selecting Raw view, and doing your browser's
@@ -44,8 +45,8 @@ You can find our `perf.html` specific `Vagrantfile` [here][perf_vagrant].
 
 ### Getting Started
 
-1. Clone the perf.html fork repository using git. The clone directory will now
-   be referred to as `<perf>/`
+1. Clone the perf.html fork repository using git. Our clone of this repository
+   is [here][ourfork]. The clone directory will now be referred to as `<perf>/`
 2. Copy the [`Vagrantfile`][perf_vagrant] to `<perf>/Vagrantfile`
 3. Edit `<perf>/.git/info/exclude` and add the lines `Vagrantfile`, `.vagrant`,
    and `ubuntu*.log` to the end (three lines).
@@ -53,6 +54,7 @@ You can find our `perf.html` specific `Vagrantfile` [here][perf_vagrant].
       vagrant files. We don't want to accidentally commit our `Vagrantfile` and
       supporting log files to their repository and we also don't want to modify
       the `.gitignore` they provide
+    * You can see an example of this file [here](#gitinfoexclude)
 4. Run `vagrant up` from anywhere within `<perf>/`
 5. Once this command finishes run `vagrant ssh` to connect to the guest OS
 6. Run `cd /vagrant` to change to the shared folder
@@ -87,7 +89,7 @@ You can find our `perf.html` specific `Vagrantfile` [here][perf_vagrant].
 
 #### `.git/info/exclude`
 
-```
+``` shell
 # git ls-files --others --exclude-from=.git/info/exclude
 # Lines that start with '#' are comments.
 # For a project mostly in C, the following would be a good set of
@@ -101,7 +103,9 @@ ubuntu*.log
 
 [vagrant]: https://www.vagrantup.com/intro/index.html
 [vagrant_install]: https://www.vagrantup.com/intro/getting-started/install.html
+[vbox]: https://www.virtualbox.org/manual/ch01.html#intro-installing
 [vbguest]: https://github.com/dotless-de/vagrant-vbguest
 [perf]: https://github.com/devtools-html/perf.html
+[ourfork]: https://github.com/CS4260-Edross/perf.html
 [gecko]:  https://github.com/devtools-html/Gecko-Profiler-Addon
 [perf_vagrant]: ./perf.html/Vagrantfile
