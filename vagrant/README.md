@@ -8,6 +8,13 @@ this class. Because the directory the `Vagrantfile` is located in is shared with
 the guest we can install the `Vagrantfile` in the root directory of the code
 base to give the virtual machine access to the code base.
 
+Vagrant needs to be installed before all of these can be done. You can get
+instructions for installing Vagrant [here][vagrant_install].
+
+You can get the `Vagrantfile`s either by cloning this git repo or by navigating
+to the `Vagrantfile` on github, selecting Raw view, and doing your browser's
+"Save As" to save it as `Vagrantfile` with no extensions.
+
 * Useful Plugins
     * [vagrant-vbguest][vbguest] If VirtualBox is your provider this plugin
       keeps the guest additions up to date. Run `vagrant plugin install
@@ -76,7 +83,24 @@ You can find our `perf.html` specific `Vagrantfile` [here][perf_vagrant].
     * Use the Gecko Profiler Addon tool to record a profile and open it in the
       configured url
 
+### Example Files
+
+#### `.git/info/exclude`
+
+```
+# git ls-files --others --exclude-from=.git/info/exclude
+# Lines that start with '#' are comments.
+# For a project mostly in C, the following would be a good set of
+# exclude patterns (uncomment them if you want to use them):
+# *.[oa]
+# *~
+Vagrantfile
+.vagrant
+ubuntu*.log
+```
+
 [vagrant]: https://www.vagrantup.com/intro/index.html
+[vagrant_install]: https://www.vagrantup.com/intro/getting-started/install.html
 [vbguest]: https://github.com/dotless-de/vagrant-vbguest
 [perf]: https://github.com/devtools-html/perf.html
 [gecko]:  https://github.com/devtools-html/Gecko-Profiler-Addon
