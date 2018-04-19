@@ -21,7 +21,7 @@ What did we do during this sprint?
 What will we improve for next time?
 
 * Improve the Process
-    * Really Backlog
+    * Really use the Backlog
     * Improve Velocity
 * Utilizing group time vs individual time smarter
 * Better Before class prep/planning
