@@ -35,7 +35,7 @@ What will we improve for next time?
 
 [planning]: https://www.scrum.org/resources/what-is-sprint-planning
 [retrospective]: https://www.scrumalliance.org/community/articles/2014/april/key-elements-of-sprint-retrospective
-[trello]: https://trello.com/b/
+[trello]: https://trello.com/b/xPK7FgQr/sprint-5
 [issue895]: https://github.com/devtools-html/perf.html/issues/895
 [issue422]: https://github.com/devtools-html/perf.html/issues/422
 [issue736]: https://github.com/devtools-html/perf.html/issues/736
