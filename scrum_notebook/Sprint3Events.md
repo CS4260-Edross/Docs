@@ -27,7 +27,7 @@ What did we do during this sprint?
 What will we improve for next time?
 
 * We need more artifacts produced
-* Publish agends for each meeting
+* Publish agendas for each meeting
     * Created by requests to Scrum Master
     * Write it on the whiteboard at the begining of class
     * Automatic artifacts of each meeting
