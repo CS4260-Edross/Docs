@@ -1,5 +1,4 @@
 # Team Edross
-   (insert vision statement)
   
 ## Stakeholders
   * Members of Edross: Interested in learning project management, process, and developing quality code.
